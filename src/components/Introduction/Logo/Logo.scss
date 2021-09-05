@@ -1,0 +1,42 @@
+@import '../../../sass/index.scss';
+
+.logo {
+    font-size: 6rem;
+    font-weight: bold;
+    animation: moveFromLeft .8s;
+    position: relative;
+    transition: all .2s;
+    backface-visibility: hidden;
+    background-image: linear-gradient(to right,  $color-primary-dark 50%, $color-primary-3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+
+    @keyframes moveFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10%);
+  }
+
+  25% {
+    transform: translateX(-8%);
+    opacity: .25;
+  }
+
+  50% {
+    transform: translateX(-6%);
+    opacity: .5;
+  }
+
+  75% {
+    transform: translateX(-4%);
+    opacity: .75;
+  }
+
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}

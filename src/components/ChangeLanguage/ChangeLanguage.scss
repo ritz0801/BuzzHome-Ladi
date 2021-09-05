@@ -1,0 +1,11 @@
+@import '../../sass/index.scss';
+
+.change-language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    .ant-select-selector {
+        border-radius: 5px !important;
+    }
+}

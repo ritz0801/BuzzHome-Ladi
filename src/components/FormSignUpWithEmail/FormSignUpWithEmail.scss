@@ -1,0 +1,182 @@
+@import "../../sass/index.scss";
+
+.form-signup-with-email {
+    .fullName-phone {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        > .ant-form-item {
+            height: 7.8rem;
+            margin-bottom: 0;
+        }
+        > .ant-form-item:nth-child(2) {
+            margin-right: 0;
+        }
+    }
+
+    .check-box-wrap {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        > .ant-form-item {
+            margin-top: 0;
+        }
+        .ant-checkbox-wrapper {
+            color: #fff;
+        }
+    }
+    .ant-form-item-explain {
+        text-align: left;
+        font-size: 1.4rem;
+        color: $color-warning;
+        max-width: 275px;
+    }
+    .ant-form-item {
+        margin-top: 2rem;
+        margin-right: 2rem;
+    }
+
+    .custom-input {
+        input {
+            height: 4.5rem;
+            border-radius: 5px;
+            font-size: 1.5rem;
+
+            &::placeholder {
+                font-size: 1.5rem;
+            }
+        }
+    }
+    .custom-textarea {
+        border-radius: 5px;
+        font-size: 1.5rem;
+    }
+    .custom-checkbox {
+        .ant-checkbox-checked {
+            span {
+                background-color: $color-warning;
+            }
+        }
+    }
+    .form__btn-start {
+        .amount-subscribers-wrap {
+            display: flex;
+            justify-content: flex-end;
+            .amount-subscribers {
+                background-color: $color-warning;
+                padding: 3px;
+                border-radius: 5px;
+                font-size: 12px;
+                max-width: 171px;
+                margin-left: 20px;
+                margin-bottom: 8px;
+                position: relative;
+                font-weight: bold;
+            }
+            .amount-subscribers-left::before {
+                content: "";
+                width: 0px;
+                height: 0px;
+                position: absolute;
+                border-left: 9px solid $color-warning;
+                border-right: 8px solid transparent;
+                border-top: 6px solid $color-warning;
+                border-bottom: 5px solid transparent;
+                left: 22px;
+                bottom: -10px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1124px) {
+    .ant-form-item-explain {
+        font-size: 1.2rem !important;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .ant-form-item-explain {
+        font-size: 1.5rem !important;
+    }
+}
+
+@media only screen and (max-width: 482px) {
+    .ant-checkbox-wrapper span {
+        font-size: 11px !important;
+    }
+    .ant-form-item-explain {
+        font-size: 1.4rem !important;
+    }
+}
+
+// .form-signup-with-email {
+//     .content-form {
+//         display: flex;
+//         align-items: flex-start;
+//         justify-content: center;
+//         width: 50%;
+//         margin: auto;
+//     }
+
+//     .custom-input {
+//         height: 5rem;
+//     }
+//     .form-item-email {
+//         flex: 1;
+//         // margin: auto;
+//         text-align: left;
+//         // height: 6rem;
+//         &.ant-form-item-has-error {
+//             input {
+//                 border-color: rgba($color-warning, 0.4);
+//                 border-width: 3px;
+//                 font-size: 1.8rem;
+//                 &:hover {
+//                     border-color: rgba($color-warning, 0.6) !important;
+//                 }
+//             }
+//         }
+//     }
+//     .ant-form-item-explain {
+//         // msg error
+//         color: $color-warning;
+//         margin-top: 0.5rem;
+//     }
+//     .button-custom {
+//         span {
+//             color: black;
+//             font-weight: 800;
+//             font-size: 18px;
+//             letter-spacing: 1px;
+//             &:hover {
+//                 color: white;
+//             }
+//         }
+//     }
+// }
+
+// @media only screen and (max-width: 1124px) {
+//     .form-signup-with-email {
+//         .content-form {
+//             width: 70%;
+//         }
+//     }
+// }
+
+// @media only screen and (max-width: 768px) {
+//     .form-signup-with-email {
+//         .content-form {
+//             width: 80%;
+//         }
+//     }
+// }
+
+// @media only screen and (max-width: 482px) {
+//     .form-signup-with-email {
+//         .content-form {
+//             width: 90%;
+//         }
+//     }
+// }

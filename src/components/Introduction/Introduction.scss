@@ -1,0 +1,66 @@
+@import "../../sass/index.scss";
+
+.introduction {
+  display: flex;
+  align-items: center;
+  &:hover {
+    cursor: default;
+  }
+  .column {
+    flex: 1;
+  }
+  .slogan {
+    font-size: $font-size-heading4;
+    max-width: 450px;
+    text-align: center;
+    margin: auto;
+    padding-top: 3rem;
+    .mark {
+      color: $color-primary-light;
+      font-style: italic;
+      font-weight: 700;
+    }
+  }
+  .right {
+    img {
+      width: 100%;
+      // max-height: 35rem;
+      object-fit: cover;
+    }
+  }
+}
+
+@media only screen and (max-width: 944px) {
+  .introduction {
+    flex-direction: column;
+    .left {
+      margin-top: 2rem;
+    }
+    .right {
+      margin-top: 5rem;
+      img {
+        padding: 0 9rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .introduction {
+    .right {
+      img {
+        padding: 0 3rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 482px) {
+  .introduction {
+    .slogan {
+      padding-left: 0.2rem;
+      padding-right: 0.2rem;
+      font-size: 2.4rem;
+    }
+  }
+}

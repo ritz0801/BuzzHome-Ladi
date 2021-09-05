@@ -1,0 +1,20 @@
+@import '../../sass/index.scss';
+
+.time-count-down {
+    color: #fff;
+    .time-count-down-content {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .time-count-down-content {
+        font-size: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .time-count-down-content {
+        font-size: 21px !important;
+    }
+}

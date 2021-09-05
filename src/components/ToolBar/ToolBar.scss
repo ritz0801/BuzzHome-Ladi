@@ -1,0 +1,30 @@
+@import '../../sass/index.scss';
+
+.toolbar-covid19 {
+    background-color: $color-primary-dark;
+    color: $color-white;
+    height: 5rem;
+    width: 100%;
+    // margin-top: 66.4px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    z-index: 99;
+    .content-toolbar {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        width: 80%;
+        text-align: center;
+    }
+    .close-toolbar {
+        margin-bottom: 0;
+        text-align: right;
+        padding-right: 4rem;
+        cursor: pointer;
+    }
+} 

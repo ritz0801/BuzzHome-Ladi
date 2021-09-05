@@ -1,0 +1,39 @@
+{
+  "providing": "Cung cấp",
+  "matching": "dữ liệu mới nhất",
+  "and": "và",
+  "nearRealtime": "căn hộ đúng nhu cầu",
+  "dataForReal": "cho người môi giới bất động sản và người có nhu cầu thuê, tìm ở ghép căn hộ",
+
+  "postEveryday": "Bài Đăng Mỗi Ngày",
+  "propertiesListed": "Bất Động Sản Đã Đăng Mỗi Ngày",
+  "matchTransactions": "Lượng Kết Nối Phù Hợp",
+  "happyCustomers": "Khách Hàng Hài Lòng",
+  "customerForBrokers": "Khách Hàng Cho Nhà Môi Giới Mỗi Ngày",
+  "customerFoundMatchProperty": "Khách Hàng Tìm Được Căn Hộ Như Ý",
+
+  "subscribe": "Để Lại Email Để Xài Thử Phiên Bản Thử Nghiệm Miễn Phí",
+  "email": "Email",
+  "submit": "Đăng Ký",
+  "emailRequire": "Hãy nhập email của bạn",
+  "invalidEmail": "Email không đúng định dạng",
+  "submitSuccess": "Cám ơn bạn đã đăng ký",
+  "submitError": "Có lỗi xảy ra, vui lòng thử lại",
+  "optionEnglish": "English",
+  "optionVietnamese": "Tiếng Việt",
+
+  "toolBarContent": "Chương trình triển khai giúp hỗ trợ cộng đồng Người Môi Giới và Người Thuê Bất Động Sản vượt qua đợt COVID-19.",
+
+  "namePlaceholder": "Họ tên",
+  "phone": "Số điện thoại",
+  "invalidPhone": "Số điện thoại không đúng định dạng",
+  "titleTextArea": "Bạn đang gặp khó khăn và cần giúp đỡ gì?",
+  "exampleTextArea": "Ví dụ: Tốn nhiều thời gian khi tìm nhà, không biết tìm nhà ở đâu...",
+  "renter": "Người thuê nhà",
+  "broker": "Người môi giới",
+  "youAre": "Bạn là:",
+
+  "alreadyHave": "Đã có",
+  "peopleRegistered": "người đăng ký",
+  "thanksSubcribe": "Cám ơn bạn đã đăng ký! BuzzHome sẽ liên hệ lại với bạn trong thời gian sớm nhất! ❤️"
+}

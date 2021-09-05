@@ -1,0 +1,20 @@
+@import "../../sass/index.scss";
+
+.footer {
+    width: 100%;
+    padding: 1rem;
+    font-size: $font-size-subtitle2;
+    background-color: $color-primary-dark;
+    color: $color-white;
+    text-align: center;
+    .mark {
+        color: $color-primary-light;
+        a {
+            color: $color-primary-light;
+            font-size: $font-size-subtitle2;
+        }
+    }
+    &:hover {
+        cursor: default;
+    }
+}

@@ -1,0 +1,43 @@
+@import "../../../../sass/index.scss";
+
+.posts,
+.properties,
+.match-transactions,
+.happy-customers {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    .number {
+        font-size: 5rem;
+        margin-bottom: 0;
+        background: rgb(0, 147, 233);
+        background: linear-gradient(
+            150deg,
+            rgba(0, 147, 233, 1) 0%,
+            rgba(54, 159, 147, 1) 100%
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight: bold;
+    }
+    .content {
+        color: $color-primary-dark;
+        font-weight: bold;
+        font-size: $font-size-heading4;
+        margin-bottom: 0;
+    }
+    &:hover {
+        cursor: default;
+    }
+}
+
+@media (max-width: 991px) {
+    .posts,
+    .properties,
+    .match-transactions,
+    .happy-customers {
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+}

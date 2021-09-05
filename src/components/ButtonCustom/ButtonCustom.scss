@@ -1,0 +1,19 @@
+@import "../../sass/index.scss";
+
+.button-custom {
+    height: 5rem;
+    min-width: 12rem;
+    background-color: $color-warning;
+    border: none;
+    transition: all 0.2s;
+    color: black;
+    &:visited,
+    &:hover {
+        background-color: $color-success !important;
+        outline-color: $color-success;
+        color: white !important;
+    }
+    &:focus {
+        background-color: $color-warning;
+    }
+}

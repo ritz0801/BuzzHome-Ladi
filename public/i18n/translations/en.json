@@ -1,0 +1,39 @@
+{
+    "providing": "Providing",
+    "matching": "matching",
+    "and": "and",
+    "nearRealtime": "near realtime",
+    "dataForReal": "data for real estate brokers and renters",
+
+    "postEveryday": "Posts Everyday",
+    "propertiesListed": "Properties Listed",
+    "matchTransactions": "Match Transactions",
+    "happyCustomers": "Happy Customers",
+    "customerForBrokers": "Generated Leads For Brokers",
+    "customerFoundMatchProperty": "Satisfied Renters",
+
+    "subscribe": "Subscribe for the pre-launch",
+    "email": "Your email",
+    "submit": "Submit",
+    "emailRequire": "Please input your email",
+    "invalidEmail": "Email is not valid",
+    "submitSuccess": "Thanks for your submission",
+    "submitError": "Something went wrong, please try later",
+    "optionEnglish": "English",
+    "optionVietnamese": "Tiếng Việt",
+
+    "toolBarContent": "Stay Home To Protect Your Health!",
+
+    "namePlaceholder": "Full Name",
+    "phone": "Phone",
+    "invalidPhone": "Phone is not valid",
+    "titleTextArea": "Are you struggling and need help?",
+    "exampleTextArea": "Ex: Spend a lot of time looking for a house, not knowing where to find a house...",
+    "renter": "Renter",
+    "broker": "Broker",
+    "youAre": "You Are",
+
+    "alreadyHave": "Already",
+    "peopleRegistered": "people registered",
+    "thanksSubcribe": "Thanks for your subscribe!"
+}
